@@ -30,7 +30,7 @@
                         <tr>
                             <td>1</td>
                             <td>Anton</td>
-                            <td><a href="tampil_kinerja/index.php"><i class="fa fa-edit" title="Edit Kinerja"></i></a></td>
+                            <td><i class="fa fa-edit" title="Edit Kinerja"></i></td>
                         </tr>
                     </tbody>
                 </table>
