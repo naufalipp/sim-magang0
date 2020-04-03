@@ -13,10 +13,10 @@ class Universitas extends CI_Controller
     {
         $data['universitas'] = $this->UniversitasModel->getUniversitas();
 
-        $this->load->view('backend/templates/header');
-        $this->load->view('backend/templates/sidebar');
-        $this->load->view('backend/templates/navbar');
+        $this->load->view('backend/admin/templates/header');
+        $this->load->view('backend/admin/templates/sidebar');
+        $this->load->view('backend/admin/templates/navbar');
         $this->load->view('backend/admin/referensi/universitas/index', $data);
-        $this->load->view('backend/templates/footer');
+        $this->load->view('backend/admin/templates/footer');
     }
 }
